@@ -22,7 +22,9 @@ const data = {
         "sport" : "Futsal",
         "pets" : "Bettas",
         "attitude" : "Positive",
-        "motto" : "When you stop advancing, you’ve already begun to retreat."
+        "motto" : "When you stop advancing, you’ve already begun to retreat.",
+        "slocane1" : "At present, the website or application is very important in doing business. Because technology has taken over a large number of people It will be clearly noticed that Most people carry a mobile phone with them all the time. Almost 100% of their society is, but they live on social media.",
+        "slocane2" : " And if you are going to reach them, I want you to trust me, I will create your own personal touch."
     },
     "education" : {
         "education1" : "Songphinong School",

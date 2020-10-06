@@ -18,10 +18,6 @@ router.get('/education', (req,res )=>{
     res.render('education',{myData});
 });
 
-router.get('/workexperience',(req, res )=>{
-    res.render('experience',{myData});
-});
-
 router.get('/skill', (req, res )=>{
     res.render('skill',{myData});
 });

@@ -1,7 +1,11 @@
 <link rel="stylesheet" href="/index.css">
+<script src="https://kit.fontawesome.com/fc529a0756.js" crossorigin="anonymous"></script>
 <body>
-    <h1 class="abm">About me</h1>
-        <div class="flexbox">
+    <div class="ABtitle">
+        <h1 class="abm">About me</h1>
+        <span></span>
+    </div>
+        <!---<div class="flexbox">
                 {{#with myData.aboutme}}
                 <div class="box"><li class="ctn"><span class="first-block">Full name &nbsp: &nbsp&nbsp</span><span class="second-block"> {{name}}</span></li></div>
                 <div class="box"><li class="ctn"><span class="first-block">Nickname &nbsp: &nbsp&nbsp</span><span class="second-block"> {{nickname}}</span></li></div>
@@ -25,5 +29,70 @@
                 <div class="box"><li class="ctn"><span class="first-block">Attitude &nbsp: &nbsp&nbsp</span><span class="second-block"> {{attitude}}</span></li></div>
                 <div class="box"><li class="ctn"><span class="first-block">Motto &nbsp: &nbsp&nbsp</span><span class="second-block"> {{motto}}</span></li></div>
                 {{/with}}
+        </div>-->
+    {{#with myData.aboutme}}
+        <div class="ABbody">
+            <div class="ABcontainer">
+                <div class="left-side">
+                    <img src="img/me.jpg" alt="Model">
+                </div>
+                <div class="right-side">
+                    <h2>Web Designer & Developer</h2>
+                    <div class="ABname">
+                        <h1>Mr.&nbsp;THANAYUT &nbsp; SAMSANG</h1>
+                    </div>
+                    <span></span>
+                    <p>{{slocane1}}<br><br>{{slocane2}}</p>
+                    <br>
+                    <p>
+                        Nickname 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;: &nbsp;&nbsp; 
+                        {{nickname}}
+                    </p>
+                    <p>
+                        Age 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; 
+                        {{age}}
+                    </p>
+                    <p>
+                        Religion 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; 
+                        {{religion}}
+                    </p>
+                    <p>
+                        Characteristic  
+                        &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; 
+                        {{characteristic}}
+                    </p>
+                    <p>
+                        Hobbies 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; 
+                        {{hobbies}}
+                    </p>
+                    <p>
+                        Motto 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        : &nbsp;&nbsp; 
+                        {{motto}}
+                    </p>
+                    <br>
+                    <div class="ABicons">
+                        <a href="https://www.facebook.com/nongnooporpat">
+                            <i class="fab fa-facebook   " aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/the.noch/?hl=th">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
+    {{/with}}
+        
 </body>
